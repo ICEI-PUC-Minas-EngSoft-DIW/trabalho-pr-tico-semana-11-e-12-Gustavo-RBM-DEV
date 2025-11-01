@@ -1,18 +1,28 @@
 {
-  "usuarios": [
+  "games": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Super Mario World",
+      "console": "SNES",
+      "lancamento": 1990,
+      "imagem": "mario-world.jpg",
+      "curiosidade": "Foi o jogo mais vendido para o Super Nintendo, com mais de 20 milhões de cópias!"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Space Invaders",
+      "console": "Arcade",
+      "lancamento": 1978,
+      "imagem": "space-invaders.jpg",
+      "curiosidade": "No Japão, causou escassez temporária de moedas de 100 ienes devido à alta demanda por fichas nos fliperamas."
+    },
+    {
+      "id": 3,
+      "nome": "Pac-Man",
+      "console": "Arcade",
+      "lancamento": 1980,
+      "imagem": "pacman.jpg",
+      "curiosidade": "Originalmente, se chamaria 'Puck-Man', mas o nome foi mudado na América para evitar que vândalos raspassem a letra 'P' e formassem uma palavra ofensiva."
     }
   ]
 }
