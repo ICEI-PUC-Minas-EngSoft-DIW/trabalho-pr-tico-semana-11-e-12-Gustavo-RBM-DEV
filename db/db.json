@@ -2,19 +2,11 @@
   "games": [
     {
       "id": 1,
-      "nome": "Super Mario World",
+      "nome": "Super Mario World (Versão Definitiva)",
       "console": "SNES",
       "lancamento": 1990,
-      "imagem": "mario-world.jpg",
-      "curiosidade": "Foi o jogo mais vendido para o Super Nintendo, com mais de 20 milhões de cópias!"
-    },
-    {
-      "id": 2,
-      "nome": "Space Invaders",
-      "console": "Arcade",
-      "lancamento": 1978,
-      "imagem": "space-invaders.jpg",
-      "curiosidade": "No Japão, causou escassez temporária de moedas de 100 ienes devido à alta demanda por fichas nos fliperamas."
+      "imagem": "mario-world-def.jpg",
+      "curiosidade": "A versão definitiva é usada para demonstração de emuladores e novos hacks."
     },
     {
       "id": 3,
@@ -23,6 +15,16 @@
       "lancamento": 1980,
       "imagem": "pacman.jpg",
       "curiosidade": "Originalmente, se chamaria 'Puck-Man', mas o nome foi mudado na América para evitar que vândalos raspassem a letra 'P' e formassem uma palavra ofensiva."
+    },
+    {
+      "id": 4
+    },
+    {
+      "nome": "Tetris",
+      "console": "Game Boy",
+      "lancamento": 1989,
+      "curiosidade": "O criador do Tetris nunca recebeu royalties pelo jogo enquanto vivia na União Soviética.",
+      "id": 5
     }
   ]
 }
