@@ -5,6 +5,11 @@ body {
   line-height: 1.5;
 }
 
+.form-label {
+  color: #ffc107 !important;
+  text-shadow: 0 0 4px #ffb300;
+}
+
 .site-header {
   background: #000;
   border-bottom: 2px solid #ffc107;

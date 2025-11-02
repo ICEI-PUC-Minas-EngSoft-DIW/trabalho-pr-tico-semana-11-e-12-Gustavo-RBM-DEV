@@ -21,54 +21,6 @@
 <main class="container my-4">
 
     <section id="carousel-container" class="mb-5"></section>
-
-    <!-- FORMULÁRIO CRUD (adicionar / editar items em qualquer entidade) -->
-    <section class="mb-5">
-      <h2 class="section-title">Adicionar / Editar Item (CRUD)</h2>
-      <form id="form-jogo" class="mb-4">
-        <div class="row g-2">
-          <div class="col-md-3">
-            <label class="form-label small text-muted">Entidade</label>
-            <select id="form-entity" class="form-select">
-              <option value="consoles">Console</option>
-              <option value="jogos" selected>Jogo</option>
-              <option value="noticias">Notícia</option>
-            </select>
-          </div>
-          <div class="col-md-3">
-            <label class="form-label small text-muted">Título</label>
-            <input type="text" id="form-titulo" placeholder="Título" class="form-control" required>
-          </div>
-          <div class="col-md-2">
-            <label class="form-label small text-muted">Categoria</label>
-            <input type="text" id="form-categoria" placeholder="Categoria (ex: Jogo, Console)" class="form-control">
-          </div>
-          <div class="col-md-2">
-            <label class="form-label small text-muted">Data / Ano</label>
-            <input type="text" id="form-data" placeholder="YYYY-MM-DD ou ano" class="form-control">
-          </div>
-          <div class="col-md-4">
-            <label class="form-label small text-muted">URL da Imagem</label>
-            <input type="text" id="form-imagem" placeholder="assets/img/..." class="form-control">
-          </div>
-          <div class="col-12 mt-2">
-            <label class="form-label small text-muted">Descrição / Resumo</label>
-            <textarea id="form-descricao" placeholder="Descrição" class="form-control" rows="2" required></textarea>
-          </div>
-          <div class="col-md-2 mt-2 d-flex align-items-center">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="form-destaque">
-              <label class="form-check-label small text-muted" for="form-destaque">Destaque</label>
-            </div>
-          </div>
-          <div class="col-12 mt-3 text-end">
-            <button id="form-submit" type="submit" class="btn btn-outline-warning">Adicionar</button>
-            <button id="form-cancel-edit" class="btn btn-secondary d-none">Cancelar edição</button>
-          </div>
-        </div>
-      </form>
-    </section>
-
     <section class="mb-5">
       <h2 class="section-title">Conteúdo Retrô</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4" id="cards-unificados"></div> 

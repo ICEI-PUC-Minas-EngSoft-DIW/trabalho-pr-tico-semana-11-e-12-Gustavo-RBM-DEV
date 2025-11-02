@@ -315,18 +315,9 @@ async function loadAdminTables() {
 document.addEventListener('DOMContentLoaded', () => {
   // Home page
   if (document.body && document.body.id === 'home-page') {
-    montarCarouselJogosDestaque();
-    montarSecaoCardsUnificados();
-    const form = document.getElementById('form-jogo');
-    if (form) form.addEventListener('submit', submitFormCommon);
-    const btnCancel = document.getElementById('form-cancel-edit');
-    if (btnCancel) btnCancel.addEventListener('click', (e) => { e.preventDefault(); cancelarEdit(); });
-    const entitySelect = document.getElementById('form-entity');
-    if (entitySelect) entitySelect.addEventListener('change', () => {
-      const ent = entitySelect.value;
-      document.getElementById('form-categoria').value = ent === 'jogos' ? 'Jogo' : (ent === 'consoles' ? 'Console' : 'Notícia');
-    });
-  }
+  montarCarouselJogosDestaque();
+  montarSecaoCardsUnificados();
+}
   // Detalhes
   if (document.body && document.body.id === 'detalhes-page') {
     carregarDetalhesPagina();
