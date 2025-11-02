@@ -1,7 +1,7 @@
 {
   "consoles": [
     {
-      "id": 101,
+      "id": "101",
       "titulo": "Atari 2600 (1977)",
       "descricao": "Um dos primeiros consoles domésticos que popularizou cartuchos.",
       "conteudo": "O Atari 2600 revolucionou o mercado em 1977, popularizando o conceito de cartuchos intercambiáveis. Com gráficos simples, mas inovadores para a época, trouxe a experiência de arcade para a sala de estar. Jogos como Space Invaders e Pitfall! se tornaram clássicos instantâneos. Sua influência é inegável, estabelecendo as bases para toda a indústria moderna de videogames.",
@@ -10,7 +10,7 @@
       "imagem": "assets/img/atari2600/atari2600.jpg"
     },
     {
-      "id": 102,
+      "id": "102",
       "titulo": "Nintendo Entertainment System (NES) (1983)",
       "descricao": "Console que revitalizou a indústria e introduziu grandes franquias.",
       "conteudo": "O NES não apenas salvou a indústria após a crise de 1983, mas a redefiniu. Com um controle de qualidade rigoroso e títulos icônicos como Super Mario Bros. e The Legend of Zelda, ele introduziu a jogabilidade baseada em enredo e mecânicas mais complexas. Seu sucesso transformou a Nintendo em uma gigante global.",
@@ -19,7 +19,7 @@
       "imagem": "assets/img/nes/nes.jpg"
     },
     {
-      "id": 103,
+      "id": "103",
       "titulo": "Sega Master System (1985)",
       "descricao": "Lançado em 1985, o Sega Master System foi o principal concorrente do NES na era dos 8 bits.",
       "conteudo": "O Master System foi a primeira grande aposta da Sega no mercado de consoles. Embora tenha tido mais sucesso na Europa e no Brasil do que na América do Norte, ele possuía gráficos tecnicamente superiores ao NES e introduziu personagens como Alex Kidd. Foi fundamental para iniciar a 'Guerra dos Consoles' com a Nintendo.",
@@ -28,7 +28,7 @@
       "imagem": "assets/img/segams/Master-System.jpg"
     },
     {
-      "id": 104,
+      "id": "104",
       "titulo": "Sega Genesis (Mega Drive) (1988)",
       "descricao": "Lançado em 1988, o Sega Genesis, conhecido como Mega Drive fora da América do Norte, foi um console de 16 bits que marcou a transição para gráficos mais avançados e jogabilidade mais complexa.",
       "conteudo": "O Mega Drive marcou a transição para a era dos 16 bits. Sua campanha de marketing agressiva, focada na velocidade e no público adolescente, e a introdução de Sonic the Hedgehog, permitiram à Sega competir de igual para igual com o SNES. É lembrado por sua vasta biblioteca de jogos de arcade e RPGs.",
@@ -37,7 +37,7 @@
       "imagem": "assets/img/segamd/Mega-Drive.jpg"
     },
     {
-      "id": 105,
+      "id": "105",
       "titulo": "Super Nintendo (SNES) (1990)",
       "descricao": "Console 16-bit conhecido por RPGs e plataformas inesquecíveis.",
       "conteudo": "O Mega Drive marcou a transição para a era dos 16 bits. Sua campanha de marketing agressiva, focada na velocidade e no público adolescente, e a introdução de Sonic the Hedgehog, permitiram à Sega competir de igual para igual com o SNES. É lembrado por sua vasta biblioteca de jogos de arcade e RPGs.",
@@ -48,7 +48,7 @@
   ],
   "jogos": [
     {
-      "id": 201,
+      "id": "201",
       "titulo": "Pong (1972)",
       "descricao": "Um dos primeiros e mais simples jogos eletrônicos.",
       "conteudo": "Pong é creditado como um dos primeiros jogos de arcade de sucesso comercial. Seu design extremamente simples (duas barras e uma bola) provou que o mercado de jogos eletrônicos era viável. Ele desencadeou a indústria de videogames e inspirou inúmeros jogos de esporte.",
@@ -58,7 +58,7 @@
       "destaque": true
     },
     {
-      "id": 202,
+      "id": "202",
       "titulo": "Space Invaders (1978)",
       "descricao": "Um clássico de 1978, Space Invaders coloca o jogador no comando de uma nave que deve atirar e destruir hordas de alienígenas.",
       "conteudo": "Space Invaders foi um fenômeno cultural global. É um dos primeiros jogos de tiro (shmup) e popularizou o conceito de pontuação alta. Sua demanda por moedas era tão alta que se diz ter causado uma escassez temporária de moedas de 100 ienes no Japão!",
@@ -68,7 +68,7 @@
       "destaque": false
     },
     {
-      "id": 203,
+      "id": "203",
       "titulo": "Pac-Man (1980)",
       "descricao": "Jogo de labirinto que virou ícone da cultura pop.",
       "conteudo": "Pac-Man (originalmente Puck Man) é um dos jogos de arcade mais vendidos e reconhecidos de todos os tempos. Sua jogabilidade de labirinto, focada em estratégia e evasão, e o apelo do personagem, o transformaram em um ícone pop que transcendeu o mundo dos games.",
@@ -78,7 +78,7 @@
       "destaque": true
     },
     {
-      "id": 204,
+      "id": "204",
       "titulo": "Tetris (1984)",
       "descricao": "Quebra-cabeça viciante criado na União Soviética.",
       "conteudo": "Tetris é notável por ter sido criado por um engenheiro de software russo e por ser um dos jogos mais portados de todos os tempos. Sua popularidade explodiu globalmente com o lançamento do Nintendo Game Boy, provando que jogos simples e viciantes podem ser eternos.",
@@ -88,7 +88,7 @@
       "destaque": false
     },
     {
-      "id": 205,
+      "id": "205",
       "titulo": "Super Mario Bros (1985)",
       "descricao": "Lançado em 1985, Super Mario Bros é um jogo de plataforma onde o jogador controla Mario em sua missão para resgatar a Princesa Peach do vilão Bowser.",
       "conteudo": "Super Mario Bros. é o jogo de plataforma definitivo. Ele definiu o gênero, introduzindo conceitos como rolagem lateral suave, power-ups, e design de fases que ensina o jogador através da experiência. Seu sucesso no NES o tornou um divisor de águas e o jogo mais influente de todos os tempos.",
@@ -96,11 +96,21 @@
       "data": "1985-09-13",
       "imagem": "assets/img/smariobros/super-mario-bross.jpg",
       "destaque": true
+    },
+    {
+      "id": "dcd6",
+      "titulo": "Sonic the Hedgehog",
+      "descricao": "jogo",
+      "conteudo": "jogo",
+      "categoria": "Jogo",
+      "data": "23/06/1991",
+      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTExMVFhUXGCEbGBgYGBsgIRogICAaHx0gIBoeHyggHh0nHRofITEiKCkrLi4uHiAzODMsNygtLisBCgoKDg0OGxAQGy0lICUtLy0yMisvLS8vLSstLS0tLy0vMC8tLS0tLS0tLS0tLS0tLy0vLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBEQACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYHAQj/xABDEAACAgAFAgUCBAQDBgUDBQABAgMRAAQSITEFQQYTIlFhMnFCgZGhBxQjUmJysUOCksHR8BYkM+HxFXPSNGOis8L/xAAbAQACAwEBAQAAAAAAAAAAAAAAAQIDBAUGB//EAD8RAAEDAgQCCQIFAwMDBAMAAAEAAhEDIQQSMUEFURMiYXGBkaGx8MHRBhQy4fEVI1IzQnJikrJDU6LCFiQ1/9oADAMBAAIRAxEAPwDlOPeqaL6ZPHG+qRNYA+k8H74i4EiAVXUa5whqtOs9cjnpVhSFFG1LbHbu1/AxVTpOZqSSqW0XNuqDF61JYEJYEKXLZdpGCqLJ2wiYUXPDRJW98E/w9eepZiVTsByfz4qsc3GcQbR6rblZ3vNSzdFruv8A8NMvIlQgRsBzvucc+hxZ4PXullfTMgrBZr+HmYXUQRsxFUduav8AID9cdZuOpHdAxBGoWYfpU4GoxOB7kED9TjXnad1d0zOaDIrnElaDKWBCfFEWNAWcEqLnBokrbeDfAEuYbXLaIpI25Nex4xz8Xj2URAuVnfVL+qxbvrH8NcrJGFjXQwH1b2T7n5/98cujxaoHde4Ucj2QQVgc5/DmdSwUjZqAonbaj/37HHWZj6RATGIcNQsxL0bMLdxPQJGqjW2x39saxUad1d07OaBZSDRxNWAg3C8wJqXL5Z3NIpY+wwiQNVBz2t1KuOk+FMzOxXQyVV6lPc1+nzimpiGME",
+      "destaque": false
     }
   ],
   "noticias": [
     {
-      "id": 302,
+      "id": "302",
       "titulo": "Remakes e Remasters",
       "descricao": "Muitos jogos retro estão sendo remasterizados ou refeitos para plataformas modernas.",
       "conteudo": "Muitos jogos retro estão sendo remasterizados ou refeitos para plataformas modernas. Títulos como 'The Legend of Zelda: Link's Awakening' e 'Final Fantasy VII Remake' trazem gráficos atualizados e jogabilidade aprimorada, permitindo que novas gerações experimentem esses clássicos com uma roupagem nova e atraente, mantendo a essência original. A facilidade de acesso em consoles modernos é um grande atrativo para os fãs do retrô.",
