@@ -6,25 +6,26 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Gustavo Rodrigues Barbara Moreira
+- Matricula:898623
+- Proposta de projeto escolhida: Temas e Conteúdos Associados
+- Breve descrição sobre seu projeto:Site de curiosidades e noticias a respeito de jogos e consoles antigos.
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![alt text](<Captura de tela 2025-11-01 163602.png>)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![alt text](<Captura de tela 2025-11-01 171613.png>)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![alt text](<Captura de tela 2025-11-01 172112.png>)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![alt text](<Captura de tela 2025-11-01 172210.png>)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<Captura de tela 2025-11-02 200055.png>)
 
+![alt text](<Captura de tela 2025-11-02 203016.png>)
 ## **Orientações Gerais**
 
 Nesse projeto você vai encontrar a seguinte estrutura base:
