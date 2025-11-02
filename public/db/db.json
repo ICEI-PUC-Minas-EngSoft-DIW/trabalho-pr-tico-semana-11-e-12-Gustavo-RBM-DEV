@@ -72,7 +72,7 @@
       "titulo": "Pac-Man (1980)",
       "descricao": "Jogo de labirinto que virou ícone da cultura pop.",
       "conteudo": "Pac-Man (originalmente Puck Man) é um dos jogos de arcade mais vendidos e reconhecidos de todos os tempos. Sua jogabilidade de labirinto, focada em estratégia e evasão, e o apelo do personagem, o transformaram em um ícone pop que transcendeu o mundo dos games.",
-      "categoria": "Jogo",
+      "categoria": "jogo",
       "data": "1980-05-22",
       "imagem": "assets/img/pacman/pac-man.jpg",
       "destaque": true
